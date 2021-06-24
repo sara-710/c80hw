@@ -1,0 +1,52 @@
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>C80</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <center>
+        <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+            Guest List
+        </h3>
+        <br>
+        <div id="row_get_guest_list">
+
+            <input type="text" placeholder="guest name" id="guestname">
+            <button id="submit_button" onclick="submit()">Submit</button>
+            <hr>
+        </div>
+        <div>
+            <h4 id="name_of_people">
+            </h4>
+            <hr>
+        </div>
+        <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+            Guest List
+        </h3>
+        <br>
+        <div id="row_guestlist">
+            <button id="show" onclick="shownames()">Show</button>
+            <p id="p1"></p>
+            <hr>
+        </div>
+        <div id=sort_list>
+            <button id="sort" onclick="sorting()">
+                Sorted List
+            </button>
+            <div id="Sorted"></div>
+        </div>
+        <div id="search">
+            <input type="text" placeholder="Search the name" id="s1">
+            <button id="searchthename" onclick="namesearch()">Search</button>
+            <p id="p2"></p>
+            <h4 id="searched name"></h4>
+        </div>
+    </center>
+
+</html>
